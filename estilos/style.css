@@ -29,7 +29,7 @@ main{
 section#login{
   background-color: white;
   width: 250px;
-  height: 500px;
+  height: 515px;
   border-radius: 20px;
 
   position: absolute;
@@ -62,6 +62,20 @@ div#form > p{
   font-size: 0.8em;
 }
 
+form > div.campo{
+  background-color: #5f2c82;
+  width: 100%;
+  display: block;
+  height: 40px;
+  border-radius: 5px;
+  margin: 5px 0px;
+
+}
+
+form label{
+  
+}
+
 form > input[type=submit]{
   display: block;
   font-size: 1em;
@@ -86,7 +100,7 @@ form > a.botao {
   height: 40px;
   padding-top: 5px;
   margin-top: 5px;
-  border-radius: 5px;
+  border-radius: 7px;
   background-color: white;
   color: #49a09d;
   border: 1px solid #49a09d;
